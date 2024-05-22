@@ -16,4 +16,6 @@ let age = 24; // Number
 console.log(name1 + ' knows JavaScript.'); // Concatenation
 console.log('His age is only ' + age); // Concatenation
 console.log(name1 + ' is creating a JavaScript course for all beginners.'); // Concatenation
-1
+
+//const false = 0; // Not allowed because false is a reserved keyword
+// console.log(false); // SyntaxError: Unexpected token 'false'
