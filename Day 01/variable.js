@@ -9,3 +9,11 @@ console.log('8' + 9); // String
 
 let name = 'Joy Tarafder'; // String
 console.log(name); // String
+
+let name1 = 'Joy Tarafder'; // String
+let age = 24; // Number
+
+console.log(name1 + ' knows JavaScript.'); // Concatenation
+console.log('His age is only ' + age); // Concatenation
+console.log(name1 + ' is creating a JavaScript course for all beginners.'); // Concatenation
+1
