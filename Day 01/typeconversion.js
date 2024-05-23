@@ -23,3 +23,6 @@ console.log(Boolean('')); // false
 console.log(Boolean(' ')); // true
 console.log(Boolean('0')); // true
 console.log(Boolean('false')); // true
+
+let x = true;
+console.log(x.toString()); // 'true' because of type conversion from boolean to string
