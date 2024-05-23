@@ -121,3 +121,11 @@ console.log(name); // undefined
 // ******************* Null *******************
 let city2 = null;
 console.log(city2); // null
+
+// ******************* Hexadecimal & Octal  *******************
+
+let hex = 0xff; // Hexadecimal
+console.log(hex); // 255
+
+let oct = 0o377; // Octal
+console.log(oct); // 255 
