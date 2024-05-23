@@ -73,3 +73,51 @@ console.log(Number.POSITIVE_INFINITY); // Infinity
 console.log(Number.NEGATIVE_INFINITY); // -Infinity
 
 console.log(1/0); // Infinity
+
+// ******************* String *******************
+let str = 'Hello World!';
+let str1 = "Hello World!";
+let str2 = `Hello World!`;
+
+let str3 = new String('Hello World!');
+let str4 = new String(555);
+let str5 = new String(145.25);
+console.log(str3);
+
+console.log(str.length); // 12
+console.log(str.charAt(0)); // H
+console.log(str.charCodeAt(0)); // 72
+console.log(str[0]); // H
+console.log(str.concat(' Good Morning!')); // Hello World! Good Morning!
+console.log(str.includes('Hello')); // true
+console.log(str.indexOf('World')); // 6
+console.log(str.lastIndexOf('o')); // 7
+console.log(str.match(/World/g)); // [ 'World' ]
+console.log(str.replace('World', 'Bangladesh')); // Hello Bangladesh!
+console.log(str.search('World')); // 6
+console.log(str.slice(6, 11)); // World
+console.log(str.split(' ')); // [ 'Hello', 'World!' ]
+console.log(str.startsWith('Hello')); // true
+console.log(str.endsWith('World!')); // true
+console.log(str.substr(6, 5)); // World
+console.log(str.substring(6, 11)); // World
+console.log(str.toLowerCase()); // hello world!
+console.log(str.toUpperCase()); // HELLO WORLD!
+console.log(str.trim()); // Hello World!
+console.log(str.valueOf()); // Hello World!
+
+// ******************* Boolean *******************
+let isTrue = true;
+let isFalse = false;
+let isTrue1 = new Boolean(true);
+let isFalse1 = new Boolean(false);
+console.log(isTrue1);// [Boolean: true]
+console.log(isTrue1.valueOf());// true
+
+// ******************* Undefined *******************
+let name;
+console.log(name); // undefined
+
+// ******************* Null *******************
+let city2 = null;
+console.log(city2); // null
