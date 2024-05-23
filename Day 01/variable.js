@@ -19,3 +19,4 @@ console.log(name1 + ' is creating a JavaScript course for all beginners.'); // C
 
 //const false = 0; // Not allowed because false is a reserved keyword
 // console.log(false); // SyntaxError: Unexpected token 'false'
+
