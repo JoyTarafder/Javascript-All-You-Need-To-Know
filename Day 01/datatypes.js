@@ -128,4 +128,4 @@ let hex = 0xff; // Hexadecimal
 console.log(hex); // 255
 
 let oct = 0o377; // Octal
-console.log(oct); // 255 
+console.log(oct); // 255
