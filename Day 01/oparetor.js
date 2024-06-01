@@ -5,14 +5,13 @@ let a = 10;
 let b = 20;
 //console.log(a % b); // 10
 
-// Increment
+//Post Increment
 //console.log(a++); // 10
 //console.log(a); // 11
 //console.log(a--); // 10
 //console.log(a); // 9
 
-
-//pre-increment or post-increment
+//Pre Increment
 //console.log(++a); // 10
 //console.log(a); // 10
 //console.log(--a); // 9
